@@ -18,9 +18,9 @@ int main()
     {
         for(int j=1; j<=i; ++j)
         {
-            printf("*");
+            putchar('*');
         }
-        printf("\n");
+        putchar('\n');
     }
     int m;
     printf("Typ een getal tussen 1 en 80: ");
@@ -32,10 +32,10 @@ int main()
     {
         while(j<=i)
         {
-            printf("*");
+            putchar('*');
             j++;
         }
-        printf("\n");
+        putchar('\n');
         j=1;
         i++;
     }
@@ -45,10 +45,10 @@ int main()
     {
         while (j>=i)
         {
-            printf("*");
+            putchar('*');
             j--;
         }
-        printf("\n");
+        putchar('\n');
         j = m-1;
         i++;
     }

@@ -5,11 +5,11 @@ int main()
     char c;
     printf("Typ een teken: ");
     c = getchar();
-    if (c >= 97 && c <= 122)
+    if (c >= 'a' && c <= 'z')
     {    
         printf("ASCII-waarde decimaal: %d\n", c);
     }
-    else if (c >= 65 && c <= 90)
+    else if (c >= 'A' && c <= 'Z')
     {
         printf("ASCII-waarde hexadecimaal: %x\n", c);
     }

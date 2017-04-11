@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Henrike
-Date                   :=14/02/2017
+Date                   :=05/04/2017
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-32/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-32/bin/g++.exe -shared -fPIC
@@ -62,11 +62,9 @@ AS       := C:/TDM-GCC-32/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/1.5.c$(ObjectSuffix) 
 
 
-
-Objects=$(Objects0) 
+Objects=
 
 ##
 ## Main Build Targets 
@@ -77,7 +75,6 @@ all: $(OutputFile)
 $(OutputFile): $(IntermediateDirectory)/.d $(Objects) 
 	@$(MakeDirCommand) $(@D)
 	@echo "" > $(IntermediateDirectory)/.d
-	@echo $(Objects0)  > $(ObjectsFileList)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 MakeIntermediateDirs:
@@ -93,14 +90,6 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/1.5.c$(ObjectSuffix): 1.5.c $(IntermediateDirectory)/1.5.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Henrike/Documents/Practicum opdrachten/main/1.5.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/1.5.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/1.5.c$(DependSuffix): 1.5.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/1.5.c$(ObjectSuffix) -MF$(IntermediateDirectory)/1.5.c$(DependSuffix) -MM 1.5.c
-
-$(IntermediateDirectory)/1.5.c$(PreprocessSuffix): 1.5.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/1.5.c$(PreprocessSuffix) 1.5.c
-
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
 ##

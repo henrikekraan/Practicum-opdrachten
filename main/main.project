@@ -98,11 +98,6 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="Week 1">
-    <File Name="1.1.c" ExcludeProjConfig="Debug"/>
-    <File Name="1.2.c" ExcludeProjConfig="Debug"/>
-    <File Name="1.3.c" ExcludeProjConfig="Debug"/>
-    <File Name="1.4.c" ExcludeProjConfig="Debug"/>
-    <File Name="1.5.c" ExcludeProjConfig=""/>
-  </VirtualDirectory>
+  <VirtualDirectory Name="Week 1"/>
+  <VirtualDirectory Name="Week 2"/>
 </CodeLite_Project>

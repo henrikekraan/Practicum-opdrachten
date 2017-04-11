@@ -1,34 +1,41 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main()
 {
     int i = 0;
     char ch, first_ch;
+    int valid = true;
     
     printf("Typ een getal begin met - of +: ");
     
-    first_ch = getchar();
+    ch = first_ch = getchar();
     while(ch != '\n')
     {
         if(ch <= '9' && ch >= '0')
         {
-            i = i * 10 + (ch - '0');
+            i = (i * 10 )+ (ch - '0');
         }
         else if((ch == first_ch) && (ch == '-' || ch == '+'))
-        {
-            i=0;
-        }
+            ;
         else
         {
             printf("Foute invoer\n");
-            ch = getchar();
+            valid = false;
         }
         ch = getchar();
     }
-    if (first_ch == '-')
+    if (valid) 
+    {
+        if (first_ch == '-')
+        {
         i *= -1;
-        
-    printf("Het ingevoerde getal is: %d\n", i);
-    
+        printf("Het ingevoerde getal is: %d\n", i);
+        }
+        else
+        {
+        printf("Het ingevoerde getal is: %d\n", i);
+        }
+    }
     return 0;
 }

@@ -1,14 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Practicum opdrachten" Database="" Version="10.0.0">
-  <Project Name="main" Path="main/main.project" Active="Yes"/>
+  <Project Name="opdracht_1_1" Path="opdracht_1_1/opdracht_1_1.project" Active="No"/>
+  <Project Name="opdracht_1_2" Path="opdracht_1_2/opdracht_1_2.project" Active="No"/>
+  <Project Name="opdracht_1_3" Path="opdracht_1_3/opdracht_1_3.project" Active="No"/>
+  <Project Name="opdracht_1_4" Path="opdracht_1_4/opdracht_1_4.project" Active="No"/>
+  <Project Name="opdracht_1_5" Path="opdracht_1_5/opdracht_1_5.project" Active="No"/>
+  <Project Name="opdracht_2_1" Path="opdracht_2_1/opdracht_2_1.project" Active="No"/>
+  <Project Name="opdracht_2_2" Path="opdracht_2_2/opdracht_2_2.project" Active="No"/>
+  <Project Name="opdracht_2_3" Path="opdracht_2_3/opdracht_2_3.project" Active="No"/>
+  <Project Name="opdracht_2_4" Path="opdracht_2_4/opdracht_2_4.project" Active="No"/>
+  <Project Name="opdracht_2_5" Path="opdracht_2_5/opdracht_2_5.project" Active="No"/>
+  <Project Name="opdracht_3_1" Path="opdracht_3_1/opdracht_3_1.project" Active="No"/>
+  <Project Name="opdracht_3_2" Path="opdracht_3_2/opdracht_3_2.project" Active="No"/>
+  <Project Name="opdracht_3_3" Path="opdracht_3_3/opdracht_3_3.project" Active="No"/>
+  <Project Name="opdracht_3_4" Path="opdracht_3_4/opdracht_3_4.project" Active="No"/>
+  <Project Name="opdracht_3_5" Path="opdracht_3_5/opdracht_3_5.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="main" ConfigName="Debug"/>
+      <Project Name="opdracht_1_1" ConfigName="Debug"/>
+      <Project Name="opdracht_1_2" ConfigName="Debug"/>
+      <Project Name="opdracht_1_3" ConfigName="Debug"/>
+      <Project Name="opdracht_1_4" ConfigName="Debug"/>
+      <Project Name="opdracht_1_5" ConfigName="Debug"/>
+      <Project Name="opdracht_2_1" ConfigName="Debug"/>
+      <Project Name="opdracht_2_2" ConfigName="Debug"/>
+      <Project Name="opdracht_2_3" ConfigName="Debug"/>
+      <Project Name="opdracht_2_4" ConfigName="Debug"/>
+      <Project Name="opdracht_2_5" ConfigName="Debug"/>
+      <Project Name="opdracht_3_1" ConfigName="Debug"/>
+      <Project Name="opdracht_3_2" ConfigName="Debug"/>
+      <Project Name="opdracht_3_3" ConfigName="Debug"/>
+      <Project Name="opdracht_3_4" ConfigName="Debug"/>
+      <Project Name="opdracht_3_5" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="main" ConfigName="Release"/>
+      <Project Name="opdracht_1_1" ConfigName="Release"/>
+      <Project Name="opdracht_1_2" ConfigName="Release"/>
+      <Project Name="opdracht_1_3" ConfigName="Release"/>
+      <Project Name="opdracht_1_4" ConfigName="Release"/>
+      <Project Name="opdracht_1_5" ConfigName="Release"/>
+      <Project Name="opdracht_2_1" ConfigName="Release"/>
+      <Project Name="opdracht_2_2" ConfigName="Release"/>
+      <Project Name="opdracht_2_3" ConfigName="Release"/>
+      <Project Name="opdracht_2_4" ConfigName="Release"/>
+      <Project Name="opdracht_2_5" ConfigName="Release"/>
+      <Project Name="opdracht_3_1" ConfigName="Release"/>
+      <Project Name="opdracht_3_2" ConfigName="Release"/>
+      <Project Name="opdracht_3_3" ConfigName="Release"/>
+      <Project Name="opdracht_3_4" ConfigName="Release"/>
+      <Project Name="opdracht_3_5" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
